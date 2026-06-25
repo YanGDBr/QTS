@@ -1,4 +1,4 @@
-const f = require('./script');
+const f = require('../script');
 
 test('Exercício 2', () => {
   expect(f.verificarParImpar(2, 3)).toBe("2 é par e 3 é ímpar.");
